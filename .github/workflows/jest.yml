@@ -13,4 +13,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run Jest
         run:
+          npm build
           npm test
